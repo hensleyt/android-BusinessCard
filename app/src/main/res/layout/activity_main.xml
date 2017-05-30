@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.businesscard.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/nl_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nl_head"/>
+
+    <TextView
+        android:id="@+id/nl_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:paddingTop="70dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="Northern Lights"/>
+
+    <!-- Section Contact-->
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nl_head"
+        android:paddingTop="16dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="4dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="Contact"/>
+
+    <!-- Contact Website-->
+    <TextView
+        android:id="@+id/contact_details_website1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_title"
+        android:paddingLeft="20dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="Website:"/>
+
+    <TextView
+        android:id="@+id/contact_details_website2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_details_website1"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:text="northernlights-158212.appspot.com"/>
+
+    <!-- Contact Phone Number-->
+    <TextView
+        android:id="@+id/contact_details_phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_details_website2"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="Phone Number:"/>
+
+    <TextView
+        android:id="@+id/contact_details_phone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_details_phone1"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:text="0010 200 5000"/>
+
+    <!-- Contact E-mail -->
+    <TextView
+        android:id="@+id/contact_details_email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_details_phone2"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="E-mail:"/>
+
+    <TextView
+        android:id="@+id/contact_details_email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_details_email1"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:text="auroraborealis@mail.nl"/>
+<!-- End Section Contact-->
+
+    <TextView
+        android:id="@+id/adres_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_details_email2"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="Adres"/>
+
+    <TextView
+        android:id="@+id/adres_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adres_title"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:text="Lightstreet 1, 1234 AB, Anchorage, Alaska"/>
+
+    <TextView
+        android:id="@+id/aboutus_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adres_details"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="About Us"/>
+
+    <TextView
+        android:id="@+id/aboutus_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutus_title"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:text="We specialize in northern light art and paintings"/>
+
+    <TextView
+        android:id="@+id/ophours_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutus_detail"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:text="Opening Hours:"/>
+
+    <TextView
+        android:id="@+id/ophours_details1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ophours_title"
+        android:paddingLeft="20dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:text="Every workday from 8am - 4pm"/>
+</RelativeLayout>
