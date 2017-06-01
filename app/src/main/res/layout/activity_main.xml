@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
-        android:paddingBottom="4dp"
+        android:paddingBottom="8dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
-        android:paddingBottom="4dp"
+        android:paddingBottom="8dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
-        android:paddingBottom="4dp"
+        android:paddingBottom="8dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
         android:text="0010 200 5000"/>
@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
-        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
@@ -98,7 +98,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
-        android:paddingTop="4dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
         android:text="auroraborealis@mail.nl"/>
@@ -138,7 +137,7 @@
         android:paddingTop="4dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
-        android:text="We specialize in northern light art and paintings"/>
+        android:text="We are the specialist in creating northern light art and paintings"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -153,7 +152,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
-        android:paddingBottom="50dp"
+        android:paddingBottom="20dp"
         android:textSize="16sp"
         android:fontFamily="sans-serif-light"
         android:text="Every workday from 8am - 4pm"/>
